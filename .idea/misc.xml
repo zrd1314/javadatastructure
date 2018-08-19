@@ -6,22 +6,6 @@
     <option name="priority" value="Medium" />
     <option name="excludeFilter" value="" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="D:\repository" />
-        <option name="mavenHome" value="F:/jarpackpage/apache-maven-3.2.3/apache-maven-3.2.3" />
-        <option name="userSettingsFile" value="D:\repository\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="downloadDocsAutomatically" value="true" />
-        <option name="downloadSourcesAutomatically" value="true" />
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

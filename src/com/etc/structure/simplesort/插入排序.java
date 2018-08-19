@@ -7,7 +7,9 @@ package com.etc.structure.simplesort;
  */
 public class 插入排序 {
     public static <T extends Comparable<? super T>> void insertSort(T[] a){
+        //34,8,64,51,32,21
      // 8 34 64 51 32 21  // 8 34 51 64 32 21  // 8 34 51 64 64 21
+        // 8 34 64 64 32 21 // 8 34 34 64 32 21
         for(int p = 1; p < a.length; p++){
             T tmp = a[p];//保存当前位置p的元素，其中[0,p-1]已经有序
             int j;
@@ -17,7 +19,7 @@ public class 插入排序 {
             a[j] = tmp;//插入到合适的位置
         }
     }
-//34,8,64,51,32,21
+//34,8,64,51,32,21   8 34 64 51  8 34 64 64  8 34 34 64
     public static void main(String[] args) {
         Integer[] arr = {34,8,64,51,32,21};
         insertSort(arr);
